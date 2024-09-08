@@ -39,6 +39,6 @@ install: all hacktype.6
 
 
 uninstall:
-	rm -f ${DESTDIR}${PREFIX}/bin/sent
+	rm -f ${DESTDIR}${PREFIX}/bin/hacktype
 
 .PHONY: all clean install uninstall
